@@ -1,0 +1,21 @@
+{
+  "name": "lms-user-management",
+  "version": "1.0.0",
+  "description": "Enterprise LMS User Management and Authentication Microservice",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test test/**/*.test.js"
+  },
+  "keywords": [
+    "lms",
+    "user-management",
+    "authentication",
+    "rbac",
+    "nodejs",
+    "express"
+  ],
+  "author": "Abdul Aziz Nooruddin <abdulaziznoor9876@gmail.com>",
+  "license": "MIT"
+}
